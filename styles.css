@@ -1,0 +1,17 @@
+#main-calculator {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: rgb(5, 85, 207);
+  width: 200px;
+  height: 250px;
+}
+
+.action-buttons {
+  grid-column: 2 / span 3;
+  text-align: right;
+}
+
+.display-screen: {
+  width: 250px;
+  height: 250px;
+}
